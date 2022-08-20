@@ -11,37 +11,47 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
-    <!-- NAVBARAS  -->
+<!-- NAVBARAS  -->
     <header>
-        <nav class="navbar">
-            <nav class="logoNavbar">
-                <a href="#">
-                    <div class="logo"></div>
-                    <!-- CIA REIKĖS LOGO PER CSS IR SULINKINTI KAD GRIŽTŲ -->
-                </a>
-            </nav>
-            <nav class="menuLine">
-                <a href="#">Features</a>
-                <a href="#">About</a>
-                <a href="#">Launch</a>
-                <a href="#">Sign Up</a>
-            </nav>
-            <nav class="hamburgerWrap">
-                <div class="hamburger"></div>
-                <div class="menuSmall">
-                    <ul>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Launch</a></li>
-                        <li><a href="#">Sign Up</a></li>
-                    </ul>   
-                </div>
-
-
-            </nav>
+        <nav class="logoNavbar">
+            <a href="#" ><img src="/assets/assets/logo.svg"alt=""></a>
+        </nav>
+        <nav class="menuLine">
+            <a href="#">Features</a>
+            <a href="#">About</a>
+            <a href="#">Launch</a>
+            <a href="#" id="signUp">Sign Up</a>
+        </nav>
+        <nav class="hamburgerWrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menuSmall">
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Launch</a></li>
+                    <li><a href="#signUp">Sign Up</a></li>
+                </ul>                   
+            </div>
         </nav>
     </header>
     <!-- HERO -->
+    <main>
+        <section class="heroWrap">
+            <h1>LAUNCHING SOON</h1>
+            <h2>An NFT like no other</h2>
+            <p>Don't miss out on release of our new NFT. Sign up below to receive updates when we go live.</p>
+            <div class="signupButton">
+                <a href="#signUp">Sign Up</a>
+            </div>
+            <!-- <div></div> <---sitas gal turėtų matytys desktop versijoje -->
+        </section>
+
+    </main>
+        
+
 
 </body>
 </html>

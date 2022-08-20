@@ -72,22 +72,26 @@ header nav.hamburgerWrap input {
 }
 .menuSmall {
     position: absolute;
+    width: 100%;
     top: 0px;
     right: 0px;
     background-color: white;
-    padding: 2rem;
-    padding-top: 6rem;
-    border-radius: 0 0 0 30%;
     /* overflow: hidden; */
     opacity: 0;
     transition: opacity 1s ease;
 }
 
-.menuSmall li {
+.menuSmall li a {
     list-style: none;
-    padding: 0.5rem;
+    text-decoration: none;
+}
+.menuSmall li {
+    text-align: center;
+    margin: 0;
 }
 
 .hamburgerWrap .toggler:checked ~ .menuSmall {
     opacity: 1;
 }
+
+

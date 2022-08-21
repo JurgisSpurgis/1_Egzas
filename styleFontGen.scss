@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: @IA REIKS IRASYTI FONTA; */
+}
+@mixin baseColorGray {
+    color: rgba(153,153,153,255);
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+}
+@mixin baseColorPink {
+    color: rgba(229, 52, 235);
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+}
+@mixin baseColorBlack {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.menuLine a, .menuSmall a{
+    @include baseColorGray;
+}
+
+header nav.menuLine :last-child, header nav.hamburgerWrap .menuSmall ul :nth-child(5) a{
+    @include baseColorPink;
+}
+h1{
+    @include baseColorPink;
+}
+h2{
+    @include baseColorBlack;
+    font-size: 3.5rem;
+    width: 300px;
+}
+p{
+    @include baseColorGray;
+    }
+.signupButton a{
+    @include baseColorBlack;
+    text-decoration: solid;
+}

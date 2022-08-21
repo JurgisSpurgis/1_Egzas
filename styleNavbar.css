@@ -1,6 +1,9 @@
 nav.menuLine {
     display: none;
 }
+header nav.logoNavbar {
+    margin-left: 20px;
+}
 header, header nav.navbar {
     width: 100%;
     height: 90px;
@@ -10,6 +13,7 @@ header, header nav.navbar {
 }
 .hamburgerWrap {
     display: block;
+    margin-right: 10px;
 }
 
 header nav.hamburgerWrap input {
@@ -81,10 +85,6 @@ header nav.hamburgerWrap input {
     transition: opacity 1s ease;
 }
 
-.menuSmall li a {
-    list-style: none;
-    text-decoration: none;
-}
 .menuSmall li {
     text-align: center;
     margin: 0;
@@ -93,5 +93,6 @@ header nav.hamburgerWrap input {
 .hamburgerWrap .toggler:checked ~ .menuSmall {
     opacity: 1;
 }
+
 
 

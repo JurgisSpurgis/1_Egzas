@@ -1,0 +1,16 @@
+.freeNft {
+    background-image: url(/assets/assets/background.svg);
+    background-position: 80%;
+    height: 200px;
+}
+.freeNft h2{
+    width: 100%;
+    padding-left: 20px;
+    font-size: 2rem;
+    padding-top:100px;
+}
+.freeNft p{
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+}

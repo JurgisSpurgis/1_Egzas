@@ -1,0 +1,10 @@
+.companies :nth-child(4){   
+display: none;
+}
+.companies{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

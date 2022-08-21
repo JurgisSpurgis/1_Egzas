@@ -1,0 +1,12 @@
+.cardContainer :nth-child(1) {
+    margin-bottom: 0;
+    margin-left: 10px;
+
+}
+.cardContainer :nth-child(2) ul {
+    margin-top: 0;
+    margin-left: 20px;
+    background-color: lightgray;
+    width: 290px;
+    border-radius: 0 0 15px 15px;
+}
